@@ -7,12 +7,22 @@
 //
 
 import UIKit
-import ReSwift
+import ReSwiftRx
+
+let middleware = Middleware<AppState> { _, _, action in
+    print("Received action:")
+    return action
+}.map { _, _, action in
+    print(action)
+    return action
+}
 
 // The global application store, which is responsible for managing the appliction state.
-let mainStore = Store<AppState>(
-    reducer: CounterReducer(),
-    state: nil
+let mainStore = Store(
+    reducer: counterReducer,
+    stateType: AppState.self,
+    observable: ObservableProperty(AppState()),
+    middleware: middleware
 )
 
 @UIApplicationMain

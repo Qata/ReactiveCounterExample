@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38284A6C1DD2AD070070068C /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C135C451D53E94C00EC9FC9 /* ReSwift.framework */; };
-		38284A6D1DD2AD070070068C /* ReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C135C451D53E94C00EC9FC9 /* ReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3C135C301D53E29400EC9FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C135C2F1D53E29400EC9FC9 /* AppDelegate.swift */; };
 		3C135C321D53E29400EC9FC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C135C311D53E29400EC9FC9 /* ViewController.swift */; };
 		3C135C351D53E29400EC9FC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C331D53E29400EC9FC9 /* Main.storyboard */; };
 		3C135C371D53E29400EC9FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C361D53E29400EC9FC9 /* Assets.xcassets */; };
 		3C135C3A1D53E29400EC9FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C381D53E29400EC9FC9 /* LaunchScreen.storyboard */; };
-		3C135C4C1D53EC0F00EC9FC9 /* Reducers in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C491D53EC0F00EC9FC9 /* Reducers */; };
-		3C135C4D1D53EC0F00EC9FC9 /* State in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C4A1D53EC0F00EC9FC9 /* State */; };
 		3C135C4E1D53EC0F00EC9FC9 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		3C135C501D53EC6600EC9FC9 /* Actions in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C4F1D53EC6600EC9FC9 /* Actions */; };
-		3C135C601D547F7700EC9FC9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C135C5F1D547F7700EC9FC9 /* AppState.swift */; };
-		3C135C651D55C92200EC9FC9 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C135C641D55C92200EC9FC9 /* Actions.swift */; };
-		3C135C671D55C94300EC9FC9 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C135C661D55C94300EC9FC9 /* CounterReducer.swift */; };
+		9E3474861DEFBBA4006620EA /* ReSwiftRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */; };
+		9E3474881DEFBE8F006620EA /* ReSwiftRx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E34748F1DEFC0AC006620EA /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34748A1DEFC0AC006620EA /* Actions.swift */; };
+		9E3474901DEFC0AC006620EA /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34748C1DEFC0AC006620EA /* CounterReducer.swift */; };
+		9E3474911DEFC0AC006620EA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34748E1DEFC0AC006620EA /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				38284A6D1DD2AD070070068C /* ReSwift.framework in Embed Frameworks */,
+				9E3474881DEFBE8F006620EA /* ReSwiftRx.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,20 +35,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3C135C2C1D53E29400EC9FC9 /* CounterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C135C2C1D53E29400EC9FC9 /* RxCounterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxCounterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C135C2F1D53E29400EC9FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C135C311D53E29400EC9FC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C135C341D53E29400EC9FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C135C361D53E29400EC9FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C135C391D53E29400EC9FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C135C3B1D53E29400EC9FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C135C451D53E94C00EC9FC9 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
-		3C135C491D53EC0F00EC9FC9 /* Reducers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Reducers; path = CounterExample/Reducers; sourceTree = "<absolute>"; };
-		3C135C4A1D53EC0F00EC9FC9 /* State */ = {isa = PBXFileReference; lastKnownFileType = folder; name = State; path = CounterExample/State; sourceTree = "<absolute>"; };
-		3C135C4F1D53EC6600EC9FC9 /* Actions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Actions; path = CounterExample/Actions; sourceTree = "<absolute>"; };
-		3C135C5F1D547F7700EC9FC9 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = State/AppState.swift; sourceTree = "<group>"; };
-		3C135C641D55C92200EC9FC9 /* Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Actions.swift; path = Actions/Actions.swift; sourceTree = "<group>"; };
-		3C135C661D55C94300EC9FC9 /* CounterReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterReducer.swift; path = Reducers/CounterReducer.swift; sourceTree = "<group>"; };
+		9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwiftRx.framework; path = Carthage/Build/iOS/ReSwiftRx.framework; sourceTree = "<group>"; };
+		9E34748A1DEFC0AC006620EA /* Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		9E34748C1DEFC0AC006620EA /* CounterReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		9E34748E1DEFC0AC006620EA /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38284A6C1DD2AD070070068C /* ReSwift.framework in Frameworks */,
+				9E3474861DEFBBA4006620EA /* ReSwiftRx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +63,8 @@
 		3C135C231D53E29400EC9FC9 = {
 			isa = PBXGroup;
 			children = (
-				3C135C451D53E94C00EC9FC9 /* ReSwift.framework */,
-				3C135C2E1D53E29400EC9FC9 /* CounterExample */,
+				9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */,
+				3C135C2E1D53E29400EC9FC9 /* RxCounterExample */,
 				3C135C2D1D53E29400EC9FC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,17 +72,17 @@
 		3C135C2D1D53E29400EC9FC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C135C2C1D53E29400EC9FC9 /* CounterExample.app */,
+				3C135C2C1D53E29400EC9FC9 /* RxCounterExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C135C2E1D53E29400EC9FC9 /* CounterExample */ = {
+		3C135C2E1D53E29400EC9FC9 /* RxCounterExample */ = {
 			isa = PBXGroup;
 			children = (
-				3C135C631D55C91800EC9FC9 /* Reducers */,
-				3C135C621D55C91300EC9FC9 /* State */,
-				3C135C611D55C90900EC9FC9 /* Actions */,
+				9E3474891DEFC0AC006620EA /* Actions */,
+				9E34748B1DEFC0AC006620EA /* Reducers */,
+				9E34748D1DEFC0AC006620EA /* State */,
 				3C135C2F1D53E29400EC9FC9 /* AppDelegate.swift */,
 				3C135C311D53E29400EC9FC9 /* ViewController.swift */,
 				3C135C331D53E29400EC9FC9 /* Main.storyboard */,
@@ -96,39 +90,39 @@
 				3C135C381D53E29400EC9FC9 /* LaunchScreen.storyboard */,
 				3C135C3B1D53E29400EC9FC9 /* Info.plist */,
 			);
-			path = CounterExample;
+			path = RxCounterExample;
 			sourceTree = "<group>";
 		};
-		3C135C611D55C90900EC9FC9 /* Actions */ = {
+		9E3474891DEFC0AC006620EA /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				3C135C641D55C92200EC9FC9 /* Actions.swift */,
+				9E34748A1DEFC0AC006620EA /* Actions.swift */,
 			);
-			name = Actions;
+			path = Actions;
 			sourceTree = "<group>";
 		};
-		3C135C621D55C91300EC9FC9 /* State */ = {
+		9E34748B1DEFC0AC006620EA /* Reducers */ = {
 			isa = PBXGroup;
 			children = (
-				3C135C5F1D547F7700EC9FC9 /* AppState.swift */,
+				9E34748C1DEFC0AC006620EA /* CounterReducer.swift */,
 			);
-			name = State;
+			path = Reducers;
 			sourceTree = "<group>";
 		};
-		3C135C631D55C91800EC9FC9 /* Reducers */ = {
+		9E34748D1DEFC0AC006620EA /* State */ = {
 			isa = PBXGroup;
 			children = (
-				3C135C661D55C94300EC9FC9 /* CounterReducer.swift */,
+				9E34748E1DEFC0AC006620EA /* AppState.swift */,
 			);
-			name = Reducers;
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C135C2B1D53E29400EC9FC9 /* CounterExample */ = {
+		3C135C2B1D53E29400EC9FC9 /* RxCounterExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "CounterExample" */;
+			buildConfigurationList = 3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "RxCounterExample" */;
 			buildPhases = (
 				3C135C281D53E29400EC9FC9 /* Sources */,
 				3C135C291D53E29400EC9FC9 /* Frameworks */,
@@ -139,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = CounterExample;
+			name = RxCounterExample;
 			productName = CounterExample;
-			productReference = 3C135C2C1D53E29400EC9FC9 /* CounterExample.app */;
+			productReference = 3C135C2C1D53E29400EC9FC9 /* RxCounterExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,12 +150,11 @@
 				TargetAttributes = {
 					3C135C2B1D53E29400EC9FC9 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = J66ACQBP6J;
 						LastSwiftMigration = 0810;
 					};
 				};
 			};
-			buildConfigurationList = 3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "CounterExample" */;
+			buildConfigurationList = 3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "RxCounterExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -174,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C135C2B1D53E29400EC9FC9 /* CounterExample */,
+				3C135C2B1D53E29400EC9FC9 /* RxCounterExample */,
 			);
 		};
 /* End PBXProject section */
@@ -186,11 +179,8 @@
 			files = (
 				3C135C4E1D53EC0F00EC9FC9 /* (null) in Resources */,
 				3C135C3A1D53E29400EC9FC9 /* LaunchScreen.storyboard in Resources */,
-				3C135C4D1D53EC0F00EC9FC9 /* State in Resources */,
-				3C135C4C1D53EC0F00EC9FC9 /* Reducers in Resources */,
 				3C135C371D53E29400EC9FC9 /* Assets.xcassets in Resources */,
 				3C135C351D53E29400EC9FC9 /* Main.storyboard in Resources */,
-				3C135C501D53EC6600EC9FC9 /* Actions in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,9 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C135C601D547F7700EC9FC9 /* AppState.swift in Sources */,
-				3C135C671D55C94300EC9FC9 /* CounterReducer.swift in Sources */,
-				3C135C651D55C92200EC9FC9 /* Actions.swift in Sources */,
+				9E34748F1DEFC0AC006620EA /* Actions.swift in Sources */,
+				9E3474911DEFC0AC006620EA /* AppState.swift in Sources */,
+				9E3474901DEFC0AC006620EA /* CounterReducer.swift in Sources */,
 				3C135C321D53E29400EC9FC9 /* ViewController.swift in Sources */,
 				3C135C301D53E29400EC9FC9 /* AppDelegate.swift in Sources */,
 			);
@@ -325,15 +315,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J66ACQBP6J;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = CounterExample/Info.plist;
+				INFOPLIST_FILE = RxCounterExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.CounterExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.RxCounterExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -343,15 +333,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J66ACQBP6J;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = CounterExample/Info.plist;
+				INFOPLIST_FILE = RxCounterExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.CounterExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.RxCounterExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -360,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "CounterExample" */ = {
+		3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "RxCounterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C135C3C1D53E29400EC9FC9 /* Debug */,
@@ -369,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "CounterExample" */ = {
+		3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "RxCounterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C135C3F1D53E29400EC9FC9 /* Debug */,
