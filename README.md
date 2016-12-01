@@ -1,6 +1,6 @@
-#ReSwift Counter Example
+#ReSwiftRx Counter Example
 
-An extremely simple example app, built with [ReSwift](https://github.com/ReSwift/ReSwift).
+An extremely simple example app, built with [ReSwiftRx](https://github.com/ReSwift/ReSwiftRx).
 
 ## Installation
 
