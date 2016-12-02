@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ReSwiftRx
+import ReactiveReSwift
 
 
 class ViewController: UIViewController {
@@ -27,10 +27,11 @@ class ViewController: UIViewController {
     // when either button is tapped, an action is dispatched to the store
     // in order to update the application state
     @IBAction func downTouch(_ sender: AnyObject) {
-        mainStore.dispatch(AppAction.decrease);
+        mainStore.dispatch(AppAction.decrease)
     }
+    
     @IBAction func upTouch(_ sender: AnyObject) {
-        mainStore.dispatch(AppAction.increase);
+        mainStore.dispatch(AppAction.increase)
     }
 
 }

@@ -1,4 +1,4 @@
-import ReSwiftRx
+import ReactiveReSwift
 
 // all of the actions that can be applied to the state
 enum AppAction: Action {

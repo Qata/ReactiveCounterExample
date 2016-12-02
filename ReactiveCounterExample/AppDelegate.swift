@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ReSwiftRx
+import ReactiveReSwift
 
 let middleware = Middleware<AppState> { _, _, action in
     print("Received action:")
@@ -27,12 +27,6 @@ let mainStore = Store(
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        return true
-    }
-
 }
 

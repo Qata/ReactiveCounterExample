@@ -13,21 +13,21 @@
 		3C135C371D53E29400EC9FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C361D53E29400EC9FC9 /* Assets.xcassets */; };
 		3C135C3A1D53E29400EC9FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C135C381D53E29400EC9FC9 /* LaunchScreen.storyboard */; };
 		3C135C4E1D53EC0F00EC9FC9 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		9E3474861DEFBBA4006620EA /* ReSwiftRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */; };
-		9E3474881DEFBE8F006620EA /* ReSwiftRx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E34748F1DEFC0AC006620EA /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34748A1DEFC0AC006620EA /* Actions.swift */; };
 		9E3474901DEFC0AC006620EA /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34748C1DEFC0AC006620EA /* CounterReducer.swift */; };
 		9E3474911DEFC0AC006620EA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34748E1DEFC0AC006620EA /* AppState.swift */; };
+		9E4774A71DF12C28002EBA8B /* ReactiveReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4774A61DF12C28002EBA8B /* ReactiveReSwift.framework */; };
+		9E4774A81DF12C28002EBA8B /* ReactiveReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4774A61DF12C28002EBA8B /* ReactiveReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		38284A6E1DD2AD070070068C /* Embed Frameworks */ = {
+		9E4774A91DF12C28002EBA8B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9E3474881DEFBE8F006620EA /* ReSwiftRx.framework in Embed Frameworks */,
+				9E4774A81DF12C28002EBA8B /* ReactiveReSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,17 +35,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3C135C2C1D53E29400EC9FC9 /* RxCounterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxCounterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C135C2C1D53E29400EC9FC9 /* ReactiveCounterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCounterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C135C2F1D53E29400EC9FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C135C311D53E29400EC9FC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C135C341D53E29400EC9FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C135C361D53E29400EC9FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C135C391D53E29400EC9FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C135C3B1D53E29400EC9FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwiftRx.framework; path = Carthage/Build/iOS/ReSwiftRx.framework; sourceTree = "<group>"; };
 		9E34748A1DEFC0AC006620EA /* Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 		9E34748C1DEFC0AC006620EA /* CounterReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		9E34748E1DEFC0AC006620EA /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9E4774A61DF12C28002EBA8B /* ReactiveReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveReSwift.framework; path = Carthage/Build/iOS/ReactiveReSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3474861DEFBBA4006620EA /* ReSwiftRx.framework in Frameworks */,
+				9E4774A71DF12C28002EBA8B /* ReactiveReSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +63,8 @@
 		3C135C231D53E29400EC9FC9 = {
 			isa = PBXGroup;
 			children = (
-				9E3474851DEFBBA4006620EA /* ReSwiftRx.framework */,
-				3C135C2E1D53E29400EC9FC9 /* RxCounterExample */,
+				9E4774A61DF12C28002EBA8B /* ReactiveReSwift.framework */,
+				3C135C2E1D53E29400EC9FC9 /* ReactiveCounterExample */,
 				3C135C2D1D53E29400EC9FC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,12 +72,12 @@
 		3C135C2D1D53E29400EC9FC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C135C2C1D53E29400EC9FC9 /* RxCounterExample.app */,
+				3C135C2C1D53E29400EC9FC9 /* ReactiveCounterExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C135C2E1D53E29400EC9FC9 /* RxCounterExample */ = {
+		3C135C2E1D53E29400EC9FC9 /* ReactiveCounterExample */ = {
 			isa = PBXGroup;
 			children = (
 				9E3474891DEFC0AC006620EA /* Actions */,
@@ -90,7 +90,7 @@
 				3C135C381D53E29400EC9FC9 /* LaunchScreen.storyboard */,
 				3C135C3B1D53E29400EC9FC9 /* Info.plist */,
 			);
-			path = RxCounterExample;
+			path = ReactiveCounterExample;
 			sourceTree = "<group>";
 		};
 		9E3474891DEFC0AC006620EA /* Actions */ = {
@@ -120,22 +120,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C135C2B1D53E29400EC9FC9 /* RxCounterExample */ = {
+		3C135C2B1D53E29400EC9FC9 /* ReactiveCounterExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "RxCounterExample" */;
+			buildConfigurationList = 3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "ReactiveCounterExample" */;
 			buildPhases = (
 				3C135C281D53E29400EC9FC9 /* Sources */,
 				3C135C291D53E29400EC9FC9 /* Frameworks */,
 				3C135C2A1D53E29400EC9FC9 /* Resources */,
-				38284A6E1DD2AD070070068C /* Embed Frameworks */,
+				9E4774A91DF12C28002EBA8B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RxCounterExample;
+			name = ReactiveCounterExample;
 			productName = CounterExample;
-			productReference = 3C135C2C1D53E29400EC9FC9 /* RxCounterExample.app */;
+			productReference = 3C135C2C1D53E29400EC9FC9 /* ReactiveCounterExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "RxCounterExample" */;
+			buildConfigurationList = 3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "ReactiveCounterExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -167,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C135C2B1D53E29400EC9FC9 /* RxCounterExample */,
+				3C135C2B1D53E29400EC9FC9 /* ReactiveCounterExample */,
 			);
 		};
 /* End PBXProject section */
@@ -320,10 +320,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = RxCounterExample/Info.plist;
+				INFOPLIST_FILE = ReactiveCounterExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.RxCounterExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.ReactiveCounterExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -338,10 +338,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = RxCounterExample/Info.plist;
+				INFOPLIST_FILE = ReactiveCounterExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.RxCounterExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reswift.ReactiveCounterExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "RxCounterExample" */ = {
+		3C135C271D53E29400EC9FC9 /* Build configuration list for PBXProject "ReactiveCounterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C135C3C1D53E29400EC9FC9 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "RxCounterExample" */ = {
+		3C135C3E1D53E29400EC9FC9 /* Build configuration list for PBXNativeTarget "ReactiveCounterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C135C3F1D53E29400EC9FC9 /* Debug */,

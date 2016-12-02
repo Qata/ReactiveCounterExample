@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/charlotte/Development/CounterExample/RxCounterExample.xcodeproj">
+      location = "self:/Users/charlotte/Development/CounterExample/ReactiveCounterExample.xcodeproj">
    </FileRef>
 </Workspace>

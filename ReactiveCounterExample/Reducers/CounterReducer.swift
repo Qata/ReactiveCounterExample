@@ -1,4 +1,4 @@
-import ReSwiftRx
+import ReactiveReSwift
 
 // the reducer is responsible for evolving the application state based
 // on the actions it receives
