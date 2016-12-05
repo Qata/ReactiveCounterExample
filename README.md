@@ -1,6 +1,6 @@
 #ReactiveReSwift Counter Example
 
-An extremely simple example app, built with [ReSwiftRx](https://github.com/ReSwift/ReSwiftRx).
+An extremely simple example app, built with [ReactiveReSwift](https://github.com/ReSwift/ReactiveReSwift).
 
 ## Installation
 
